@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A proposed remote participation pathway for CS110.">
+  <title>CS110 Remote Participation Pathway</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="page-width header-row">
+      <a class="site-name" href="#top">CS110 Pathway</a>
+      <nav aria-label="Main navigation">
+        <a href="#roadmap">Roadmap</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#evidence">Evidence</a>
+        <a href="#example">Example</a>
+      </nav>
+    </div>
+    <div class="scroll-track" aria-hidden="true"><div id="scroll-progress"></div></div>
+  </header>
+
+  <main id="top">
+    <section class="hero-shell">
+      <div class="background-grid" aria-hidden="true"></div>
+      <div class="orb orb-one" aria-hidden="true"></div>
+      <div class="orb orb-two" aria-hidden="true"></div>
+      <div class="intro page-width">
+      <p class="eyebrow">REMOTE PARTICIPATION PROPOSAL</p>
+      <h1>A way to stay active in CS110 when I cannot attend in person</h1>
+      <p class="intro-text">
+        This pathway keeps the same assignments and learning outcomes. It replaces the
+        in-person Action Session with documented work, communication, and instructor verification.
+      </p>
+      <div class="summary-card">
+        <p><strong>Goal:</strong> Continue learning and contributing without lowering course expectations.</p>
+        <a class="button" href="#workflow">See the weekly process</a>
+      </div>
+      </div>
+    </section>
+
+    <section id="roadmap" class="section page-width">
+      <div class="section-heading">
+        <p class="eyebrow">COURSE ROADMAP</p>
+        <h2>The same course progression</h2>
+        <p>The remote pathway follows the course’s existing stages.</p>
+      </div>
+      <div class="roadmap-grid">
+        <article class="stage-card">
+          <span>01</span>
+          <h3>The Beginning</h3>
+          <p>Learn the tools, class process, communication methods, and basic web concepts.</p>
+        </article>
+        <article class="stage-card">
+          <span>02</span>
+          <h3>Storytelling</h3>
+          <p>Use structure, writing, HTML, and visual choices to communicate an idea.</p>
+        </article>
+        <article class="stage-card">
+          <span>03</span>
+          <h3>App Development</h3>
+          <p>Build useful interactions and connect HTML, CSS, and JavaScript.</p>
+        </article>
+        <article class="stage-card">
+          <span>04</span>
+          <h3>Game Development</h3>
+          <p>Apply course concepts to rules, player choices, feedback, and a finished experience.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="tech-visual page-width" aria-label="Technology and hands-on learning">
+      <img src="assets/wiring-workbench.png" alt="Organized wiring, terminal blocks, and a circuit board on an electronics workbench">
+      <div class="tech-visual-copy">
+        <p class="eyebrow">BUILD · TEST · DOCUMENT</p>
+        <h2>Hands-on work with a visible process</h2>
+        <p>Each project would connect technical practice with clear documentation, showing both the finished result and how I reached it.</p>
+      </div>
+    </section>
+
+    <section id="workflow" class="section section-tint">
+      <div class="page-width">
+        <div class="section-heading">
+          <p class="eyebrow">WEEKLY WORKFLOW</p>
+          <h2>How remote participation would work</h2>
+        </div>
+        <ol class="workflow-list">
+          <li><strong>Receive the briefing</strong><span>Review Canvas instructions, class notes, examples, and required outcomes.</span></li>
+          <li><strong>Plan the mission</strong><span>Write a short goal and identify the concepts the assignment demonstrates.</span></li>
+          <li><strong>Build and document</strong><span>Complete the work while saving commits, screenshots, notes, and questions.</span></li>
+          <li><strong>Communicate</strong><span>Post progress or questions in the class communication channel and attend a check-in if needed.</span></li>
+          <li><strong>Submit evidence</strong><span>Turn in the finished work, repository link, Action Record, and a short reflection.</span></li>
+          <li><strong>Verify learning</strong><span>Answer instructor questions or demonstrate the project live when requested.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="evidence" class="section page-width">
+      <div class="section-heading">
+        <p class="eyebrow">EVIDENCE OF PARTICIPATION</p>
+        <h2>Visible proof of the work</h2>
+        <p>Each week would create a record that the instructor can review.</p>
+      </div>
+      <div class="evidence-grid">
+        <article><h3>Git history</h3><p>Meaningful commits showing when and how the project changed.</p></article>
+        <article><h3>Working project</h3><p>A tested repository link with readable files and a short README.</p></article>
+        <article><h3>Action Record</h3><p>A brief explanation of the goal, process, problems, and result.</p></article>
+        <article><h3>Communication</h3><p>Questions, progress updates, and responses through Canvas, Discord, or email.</p></article>
+        <article><h3>Screenshots</h3><p>Visual checkpoints showing completed stages and testing.</p></article>
+        <article><h3>Verification</h3><p>A short live or recorded explanation when the instructor needs confirmation.</p></article>
+      </div>
+    </section>
+
+    <section id="example" class="section section-dark">
+      <div class="page-width example-layout">
+        <div class="section-heading">
+          <p class="eyebrow">EXAMPLE WEEK</p>
+          <h2>Follow one assignment from start to finish</h2>
+          <p>Select a step to see what I would complete and submit.</p>
+        </div>
+        <div class="step-buttons" role="group" aria-label="Example week steps">
+          <button class="step-button active" data-step="briefing">1. Briefing</button>
+          <button class="step-button" data-step="plan">2. Plan</button>
+          <button class="step-button" data-step="build">3. Build</button>
+          <button class="step-button" data-step="evidence">4. Evidence</button>
+          <button class="step-button" data-step="submit">5. Submit</button>
+        </div>
+        <div class="step-display" aria-live="polite">
+          <p id="step-number">STEP 1 OF 5</p>
+          <h3 id="step-title">Review the weekly briefing</h3>
+          <p id="step-description">Read the assignment, identify the required concepts, and list any questions before beginning.</p>
+          <p class="deliverable"><strong>Evidence:</strong> <span id="step-evidence">A short checklist of requirements and questions.</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section page-width closing">
+      <h2>What stays the same</h2>
+      <p>Deadlines, assignment standards, learning outcomes, instructor feedback, and academic integrity would remain unchanged.</p>
+      <p class="closing-note">The change is how participation is documented when physical attendance is not possible.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="page-width">
+      <p>CS110 Remote Participation Pathway · Working Proposal</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
